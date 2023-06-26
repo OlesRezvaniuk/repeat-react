@@ -1,8 +1,14 @@
 import "./App.css";
-import { Test } from "./components/test/test";
+// import { Test } from "./components/test/test";
+import { ColorPicker } from "./components/colorPicker/ColorPicker";
 
 function App() {
-  return <Test />;
+  return (
+    <>
+      {/* <Test /> */}
+      <ColorPicker />
+    </>
+  );
 }
 
 export default App;
